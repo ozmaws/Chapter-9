@@ -1,0 +1,27 @@
+from account import Account
+from bank import Bank
+TITLE = 'Bank' 
+def main():
+    bank = Bank()
+    bank.add(Account("Alex", "1111", 1024.0))
+    bank.add(Account("Carson", "2222", 2048.0))
+    bank.add(Account("Chase", "3333", 2048.0))
+    bank.add(Account("Silas", "4444", 1024.0))
+    bank.add(Account("Ramiro", "5555", 512.0))
+    bank.add(Account("Don", "6666", 2048.0))
+    bank.add(Account("Carmen", "7777", 512.0))
+    bank.add(Account("Ann", "8888", 32.0))
+    bank.add(Account("Ryuji", "9999", 256.0))
+    bank.add(Account("William", "0000", 64.0))
+    bank.add(Account("Haru", "1212", 128.0))
+    bank.add(Account("Lucy", "2323", 1024.0))
+    bank.add(Account("Yusuke", "3434", 64.0))
+    bank.add(Account("Gorokichi", "4545", 128.0))
+    bank.add(Account("Akechi", "5656", 512.0))
+    bank.add(Account("Loki", "6767", 256.0))
+    bank.add(Account("Makoto", "7878", 128.0))
+    bank.add(Account("Johanna", "8989", 64.0))
+    bank.add(Account("Arsene", "9090", 256.0))
+    print(TITLE)
+    print(bank)
+main()
